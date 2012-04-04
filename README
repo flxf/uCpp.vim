@@ -1,0 +1,12 @@
+uC++ Syntax Highlighting for Vim
+
+To install:
+
+1. Copy ucpp.vim into ~/.vim/syntax/
+2. Add the following lines into your .vimrc
+  au BufRead,BufNewFile *.ucpp set filetype=ucpp
+  au BufRead,BufNewFile *.uh set filetype=ucpp
+
+Now any file with the extension '.ucpp' or '.uh' will be highlighted for uC++
+keywords or predefined objects. Alternatively, you can modify the code above to
+recognize any filetype you decide.
