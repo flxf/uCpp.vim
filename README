@@ -2,7 +2,8 @@ uC++ Syntax Highlighting for Vim
 
 To install:
 
-1. Copy ucpp.vim into ~/.vim/syntax/
+1. Use a runtime path manager (e.g. Pathogen), or manually copy syntax/ into
+   ~/.vim/
 2. Add the following lines into your .vimrc
   au BufRead,BufNewFile *.ucpp set filetype=ucpp
   au BufRead,BufNewFile *.uh set filetype=ucpp
