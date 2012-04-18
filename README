@@ -1,7 +1,0 @@
-uC++ Syntax Highlighting for Vim
-
-To install, either use a runtime path manager (e.g. Pathogen), or manually copy
-the subdirectories into ~/.vim/
-
-Now any file with the extension '.ucpp' or '.uh' will be highlighted for uC++
-keywords or predefined objects.
