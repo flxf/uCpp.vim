@@ -1,0 +1,23 @@
+uC++ Syntax Highlighting for Vim
+----------------------------------
+
+Highlight uC++ source code contained in '.ucpp' or '.uh' files.
+
+Installation
+------------
+
+Assume your downloaded (and unzipped) copy is located in the directory `ucpp-vim-syntax`.
+
+### Option 1: Manual Installation
+
+Copy the sub-directories of `uCpp.vim` into `~/.vim/`:
+
+    cp -r uCpp.vim/ftdetect ~/.vim/
+    cp -r uCpp.vim/syntax ~/.vim/
+
+### Option 2: Pathogen Installation
+
+1. Download and install Pathogen (https://github.com/tpope/vim-pathogen).
+2. Move:
+
+        mv uCpp.vim ~/.vim/bundle/
